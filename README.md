@@ -5,6 +5,13 @@ Created by Gemini 1.0 Pro
 
 ---
 
+## Current Functionality
+
+Changes the colour of the top bar for Alpha production sites.
+Hides the Add New Product button in Product Maintenance.
+
+---
+
 ## Extension Installation Guide
 
 Follow these steps to download and install the extension in Google Chrome.
