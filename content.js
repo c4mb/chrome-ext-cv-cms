@@ -1,5 +1,5 @@
 // Part 1: Style change for alphafirstaid.com.au
-const alphaFirstAidLink = document.querySelector('.cv-cms-url a[href*="www.alphafirstaid.com.au"]');
+const alphaFirstAidLink = document.querySelector('.cv-cms-url a[href*="alphafirstaid.com.au"]');
 if (alphaFirstAidLink) {
   const cvCmsHeader = document.getElementById('cv-cms-header');
   if (cvCmsHeader) {
@@ -8,7 +8,7 @@ if (alphaFirstAidLink) {
 }
 
 // Part 2: Style change for alphasport.com.au
-const alphaSportLink = document.querySelector('.cv-cms-url a[href*="www.alphasport.com.au"]');
+const alphaSportLink = document.querySelector('.cv-cms-url a[href*="alphasport.com.au"]');
 if (alphaSportLink) {
   const cvCmsHeader = document.getElementById('cv-cms-header');
   if (cvCmsHeader) {
