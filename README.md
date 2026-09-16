@@ -1,4 +1,4 @@
-# chrome-ext-cv-cms
+# chrome-ext-av
 Chrome Extension for the Commerce Vision CMS and NetSuite ERP
 
 Created by Gemini 1.0 Pro
