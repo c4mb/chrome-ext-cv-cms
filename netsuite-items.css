@@ -8,12 +8,15 @@
  * Only the heading div is styled, not its parent <td>.
  */
 
-/* Shared styling for all three headings */
+/* Shared styling for all three headings.
+   Padding is top, right, bottom, left. The right side is deliberately larger:
+   NetSuite's arrow already sits about 15px in from the left edge, so 15px on
+   the right makes the space after the text match. */
 td[data-nsps-label="Sport Website"] > div.uir-field-group-title,
 td[data-nsps-label="First Aid Website"] > div.uir-field-group-title,
 td[data-nsps-label="Generic (Both Websites)"] > div.uir-field-group-title {
   color: #fff !important;
-  padding: 5px 10px !important;
+  padding: 5px 15px 5px 10px !important;
   border-radius: 3px !important;
 }
 
