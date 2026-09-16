@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Commerce Vision CMS Tweaks",
-  "version": "1.0",
-  "description": "Customizes the CMS for specific tasks",
+  "name": "Commerce Vision CMS & NetSuite UI Tweaks",
+  "version": "1.1",
+  "description": "Customizes the Commerce Vision CMS and NetSuite for specific tasks",
   "content_scripts": [
     {
       "matches": ["https://cms.commercevision.biz/*"],
       "js": ["content.js"]
+    },
+    {
+      "matches": ["https://11530911.app.netsuite.com/app/common/item/item.nl*"],
+      "css": ["netsuite-items.css"]
     }
   ],
   "icons": {
