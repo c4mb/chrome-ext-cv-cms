@@ -2,8 +2,8 @@
 Chrome Extension for the Commerce Vision CMS and NetSuite ERP
 
 Created by Gemini 1.0 Pro
-
 Updated with Claude Opus 5
+
 ---
 
 ## Current Functionality
