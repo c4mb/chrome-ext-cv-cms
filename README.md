@@ -1,14 +1,17 @@
 # chrome-ext-cv-cms
-Chrome Extension for the Commerce Vision CMS
+Chrome Extension for the Commerce Vision CMS and NetSuite ERP
 
 Created by Gemini 1.0 Pro
-
+Updated with Claude Opus 5
 ---
 
 ## Current Functionality
 
 Changes the colour of the top bar for Alpha production sites.
 Hides the Add New Product button in Product Maintenance.
+
+NetSuite eCommerce Tab
+Add background colours for 'Sport Website', 'First Aid Website', and 'Generic (Both Websites)' dropdown labels.
 
 ---
 
