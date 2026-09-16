@@ -1,0 +1,41 @@
+/*
+ * NetSuite item records - eCommerce tab
+ * Colour-codes the "Sport Website", "First Aid Website" and
+ * "Generic (Both Websites)" field group headings.
+ *
+ * Headings are matched by their field group label, so if a group is
+ * renamed in NetSuite, update the label in the selectors below to match.
+ * Only the heading div is styled, not its parent <td>.
+ */
+
+/* Shared styling for all three headings */
+td[data-nsps-label="Sport Website"] > div.uir-field-group-title,
+td[data-nsps-label="First Aid Website"] > div.uir-field-group-title,
+td[data-nsps-label="Generic (Both Websites)"] > div.uir-field-group-title {
+  color: #fff !important;
+  padding: 5px 10px !important;
+  border-radius: 3px !important;
+}
+
+/* Alpha Sport */
+td[data-nsps-label="Sport Website"] > div.uir-field-group-title {
+  background-color: #0071CE !important;
+}
+
+/* Alpha First Aid */
+td[data-nsps-label="First Aid Website"] > div.uir-field-group-title {
+  background-color: #009490 !important;
+}
+
+/* Generic (both websites) */
+td[data-nsps-label="Generic (Both Websites)"] > div.uir-field-group-title {
+  background-color: #002554 !important;
+}
+
+/* Optional: make the expand/collapse arrow white so it stays visible on the
+   coloured backgrounds. Delete this block to keep NetSuite's default arrow. */
+td[data-nsps-label="Sport Website"] .uir-field-group--collapsible-icon,
+td[data-nsps-label="First Aid Website"] .uir-field-group--collapsible-icon,
+td[data-nsps-label="Generic (Both Websites)"] .uir-field-group--collapsible-icon {
+  filter: brightness(0) invert(1) !important;
+}
